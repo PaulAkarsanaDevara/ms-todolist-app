@@ -1,6 +1,6 @@
 {
   "name": "ms-todolist-app",
-  "version": "0.0.1",
+  "version": "1.0",
   "description": "",
   "author": "",
   "private": true,
@@ -20,11 +20,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/apollo": "^13.1.0",
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/graphql": "^13.1.0",
+    "@nestjs/microservices": "^11.0.16",
     "@nestjs/platform-express": "^11.0.1",
+    "apollo-server-express": "^3.13.0",
+    "graphql": "^16.10.0",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
